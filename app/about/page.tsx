@@ -1,8 +1,11 @@
+"use client";
+
+import FadeIn from "react-fade-in";
 import { MemberGrid } from "@/components/custom/MemberGrid";
 
 export default function App() {
   return (
-    <>
+    <FadeIn>
       <div className="flex flex-col items-center justify-center h-[10rem] ">
         <h1 className="text-5xl">About Us</h1>
       </div>
@@ -32,6 +35,6 @@ export default function App() {
         <h1 className="text-4xl">Members</h1>
         <MemberGrid />
       </div>
-    </>
+    </FadeIn>
   );
 }
