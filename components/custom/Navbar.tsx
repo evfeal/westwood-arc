@@ -15,24 +15,33 @@ export default function Navbar() {
                     width={100}
                     height={100}
                 />
-                <h1 className="text-black">Westwood ARC</h1>
+                <h1 className="text-black dark:text-white">Westwood ARC</h1>
                 <span className="sr-only">ARC Logo</span>
             </Link>
             <nav className="flex flex-row m-auto space-x-10 row-start-1 row-end-1 col-start-1 col-end-1">
-                <Link className="text-black text-xl hover:underline" href="/">
+                <Link
+                    className="text-black dark:text-white text-xl hover:underline"
+                    href="/"
+                >
                     Home
                 </Link>
-                <Link className="text-black text-xl hover:underline" href="/about">
+                <Link
+                    className="text-black dark:text-white text-xl hover:underline"
+                    href="/about"
+                >
                     About
                 </Link>
-                <Link className="text-black text-xl hover:underline" href="/program">
-                    Program
+                <Link
+                    className="text-black dark:text-white text-xl hover:underline"
+                    href="/programs"
+                >
+                    Programs
                 </Link>
                 <Link
-                    className="text-black text-xl hover:underline"
-                    href="/testimonials"
+                    className="text-black dark:text-white text-xl hover:underline"
+                    href="/gallery"
                 >
-                    Testimonials
+                    Gallery
                 </Link>
             </nav>
         </header>

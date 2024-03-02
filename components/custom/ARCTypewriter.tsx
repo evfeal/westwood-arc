@@ -19,33 +19,35 @@ export default function MainPageTypewriter() {
         }
     }, [showingSecond, showingThird]);
 
-    const word1 = [
-        {
-            text: "Analyze.",
-            className: "text-[4rem] py-[0.3rem]",
-        },
-    ];
-    const word2 = [
-        {
-            text: "Realize.",
-            className: "text-[4rem] py-[0.3rem]",
-        },
-    ];
-    const word3 = [
-        {
-            text: "Catalyze.",
-            className: "text-[4rem] py-[0.3rem]",
-        },
+    const words = [
+        [
+            {
+                text: "Analyze.",
+                className: "text-[4rem] py-[0.3rem]",
+            },
+        ],
+        [
+            {
+                text: "Realize.",
+                className: "text-[4rem] py-[0.3rem]",
+            },
+        ],
+        [
+            {
+                text: "Catalyze.",
+                className: "text-[4rem] py-[0.3rem]",
+            },
+        ],
     ];
     return (
-        <div className="flex flex-col items-center justify-center h-[40rem] ">
-            <TypewriterEffect words={word1} cursorClassName="bg-opacity-0" />
+        <>
+            <TypewriterEffect words={words[0]} cursorClassName="bg-opacity-0" />
             {showingSecond && (
-                <TypewriterEffect words={word2} cursorClassName="bg-opacity-0" />
+                <TypewriterEffect words={words[1]} cursorClassName="bg-opacity-0" />
             )}
             {showingThird && (
-                <TypewriterEffect words={word3} cursorClassName="bg-opacity-0" />
+                <TypewriterEffect words={words[2]} cursorClassName="bg-opacity-0" />
             )}
-        </div>
+        </>
     );
 }
