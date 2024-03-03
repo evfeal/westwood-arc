@@ -13,7 +13,7 @@ export default function Navbar() {
           href="#"
         >
           <Image src={arcLogo} alt="Cool Logo for ARC" priority />
-          <h1 className="text-black dark:text-white invisible lg:visible">
+          <h1 className="text-black dark:text-white invisible mx-3 lg:visible">
             Westwood ARC
           </h1>
           <span className="sr-only">ARC Logo</span>
