@@ -15,7 +15,7 @@ export default function NavbarMobile() {
     return (
         <>
             <div className="visible sm:invisible flex flex-row row-start-1 row-end-1 col-start-1 col-end-1 text-2xl items-center justify-end font-bold">
-                <button onClick={toggleMenu}>
+                <button aria-label="Menu Button" onClick={toggleMenu}>
                     {isOpen ? <X size={32} /> : <Menu size={32} />}
                 </button>
                 {isOpen && (
