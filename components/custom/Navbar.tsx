@@ -12,7 +12,12 @@ export default function Navbar() {
           className="flex flex-row row-start-1 row-end-1 col-start-1 col-end-1 text-2xl items-center font-bold text-gray-100"
           href="#"
         >
-          <Image src={arcLogo} alt="Cool Logo for ARC" priority />
+          <Image
+            src={arcLogo}
+            alt="Cool Logo for ARC"
+            priority
+            className="w-auto h-auto"
+          />
           <h1 className="text-black dark:text-white invisible mx-3 lg:visible">
             Westwood ARC
           </h1>
