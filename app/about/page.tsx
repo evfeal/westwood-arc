@@ -11,7 +11,7 @@ export default function App() {
             </div>
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-4xl my-10">What is ARC?</h1>
-                <p className="text-lg text-center w-[40%]">
+                <p className="text-lg sm:text-center sm:w-[40%] w-[50%]">
                     At ARC, our goal is to promote and develop a strong student-driven
                     research community. We create an academic environment that encourages
                     problem solving, critical thinking, and independence. We do this by
@@ -24,7 +24,7 @@ export default function App() {
                     community through a long-term project.
                 </p>
 
-                <p className="text-lg text-center w-[40%] my-[2rem]">
+                <p className="text-lg sm:text-center sm:w-[40%] w-[50%] my-[2rem]">
                     ARC has been present at Westwood since 2022. Founded by Zackery Huang,
                     ARC provides academic guidance, funding, and support to help you
                     shine. Our leadership team is here to aid your curiosity and unlock
