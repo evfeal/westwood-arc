@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import Navbar from "@/components/custom/Navbar";
-import MyCoolFooter from "@/components/custom/MyCoolFooter";
 import "./globals.css";
 
 const opensans = Open_Sans({ subsets: ["latin"] });
@@ -19,12 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${opensans.className}`}>
-        <div className="flex flex-col min-h-screen">
           <Navbar />
-          <div className="flex-1 flex flex-col">
-            <div className="flex-1">{children}</div> <MyCoolFooter />
-          </div>
-        </div>
+          {children}
       </body>
     </html>
   );
