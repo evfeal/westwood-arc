@@ -8,6 +8,10 @@ export default function App() {
       <div className="flex flex-col items-center justify-center h-[10rem] ">
         <h1 className="text-5xl">Gallery</h1>
       </div>
+      <div className="flex flex-col items-center justify-center h-[10rem] ">
+        <h1 className="text-8xl text-gray-400">;-;</h1>
+        <h1 className="text-7xl text-gray-400">Nothing Yet</h1>
+      </div>
     </FadeIn>
   );
 }
