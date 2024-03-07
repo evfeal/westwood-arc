@@ -1,7 +1,13 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import Image, { StaticImageData } from "next/image";
+import zackery_huang from "@/public/zackery_huang.jpg";
+import sanjana_iyer from "@/public/sanjana_iyer.jpg";
 import evan_alvarez from "@/public/evan_alvarez.jpg";
+import inara_woodrum from "@/public/inara_woodrum.jpg";
+import evan_wu from "@/public/evan_wu.jpg";
+import kevin_xu from "@/public/kevin_xu.jpg";
+import browning_lind from "@/public/browning_lind.jpg";
 
 export function MemberGrid() {
     return (
@@ -38,13 +44,13 @@ const items = [
     {
         title: "Zackery Huang",
         description: "President",
-        header: <Header name="Zackery Huang" />,
+        header: <Header img={zackery_huang} name="Zackery Huang" />,
         className: "md:col-span-1",
     },
     {
         title: "Sanjana Iyer",
         description: "Vice President",
-        header: <Header name="Sanjana Iyer" />,
+        header: <Header img={sanjana_iyer} name="Sanjana Iyer" />,
         className: "md:col-span-1",
     },
     {
@@ -54,21 +60,27 @@ const items = [
         className: "md:col-span-1",
     },
     {
+        title: "Inara Woodrum",
+        description: "[ Role In ARC ]",
+        header: <Header img={inara_woodrum} name="Inara Woodrum" />,
+        className: "md:col-span-1",
+    },
+    {
         title: "Kevin Xu",
         description: "[ Role In ARC ]",
-        header: <Header name="Kevin Xu" />,
+        header: <Header img={kevin_xu} name="Kevin Xu" />,
         className: "md:col-span-1",
     },
     {
         title: "Evan Wu",
         description: "[ Role In ARC ]",
-        header: <Header name="Evan Wu" />,
+        header: <Header img={evan_wu} name="Evan Wu" />,
         className: "md:col-span-1",
     },
     {
         title: "Browning Lind",
         description: "[ Role In ARC ]",
-        header: <Header name="Browning Lind" />,
+        header: <Header img={browning_lind} name="Browning Lind" />,
         className: "md:col-span-1",
     },
 ];
