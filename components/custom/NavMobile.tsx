@@ -28,7 +28,7 @@ export default function NavbarMobile() {
                         <Menu size={32} />
                     </SheetTrigger>
                     <SheetContent>
-                        <SheetHeader className="flex flex-col bg-red-400 gap-4 py-24">
+                        <SheetHeader className="flex flex-col gap-4 py-24 pr-10">
                             {routes.map((route) => {
                                 return (
                                     <SheetTitle key={route.id}>
