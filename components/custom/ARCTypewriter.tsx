@@ -8,20 +8,20 @@ const quotes = [
   [
     {
       quote:
-        "The important thing is not to stop questioning. Curiosity has its own reason for existing",
+        "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
       author: "Albert Einstein",
     },
   ],
   [
     {
       quote:
-        "Research is formalized curiosity, It is poking and prying with a purpose",
+        "Research is formalized curiosity, It is poking and prying with a purpose.",
       author: "Zora Neale Hurston",
     },
   ],
   [
     {
-      quote: "No research without action, no action without research",
+      quote: "No research without action, no action without research.",
       author: "Kurt Lewin",
     },
   ],
