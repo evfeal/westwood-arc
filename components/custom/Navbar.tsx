@@ -17,8 +17,7 @@ export default function Navbar() {
 
     useLayoutEffect(() => {
         const handleResize = () => {
-            const isMobileViewport = window.innerWidth <= 768; // Adjust breakpoint as needed
-            setIsMobile(isMobileViewport);
+            setIsMobile(window.innerWidth <= 768);
         };
 
         handleResize();
