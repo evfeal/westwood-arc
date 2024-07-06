@@ -6,7 +6,7 @@ export default function App() {
   return (
     <FadeIn>
       <div className="flex flex-col items-center justify-center h-[10rem] ">
-        <h1 className="text-5xl">Programs</h1>
+        <h1 className="text-5xl font-bold">Programs</h1>
       </div>
       <div className="flex flex-col items-center justify-center h-[10rem] ">
         <h1 className="text-8xl text-gray-400">;-;</h1>
