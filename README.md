@@ -1,1 +1,1 @@
-Will soon be live at: [westwoodarc.org](https://westwoodarc.org/)! (Inshallah)
+Will soon be live at: [westwoodarc.com](https://westwoodarc.com/)
